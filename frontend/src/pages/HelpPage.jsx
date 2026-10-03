@@ -80,44 +80,85 @@ const TEACHER_SECTIONS = [
 
 const STUDENT_SECTIONS = [
   {
-    icon: '🔗', title: 'Joining a room', ordered: true,
+    icon: '🔗', title: 'How do I join a room?',
     body: [
-      'There are two ways to join: the "Quick Join" box on your Dashboard (home screen), or the "Join Room" page from the sidebar — both work the same way.',
-      'Enter the room code your teacher shared with you and press Join.',
-      'You will land in the live session — wait there for the teacher to start asking questions.',
+      'You’ll receive the room’s hexacode through Samagama Announcements or the WhatsApp VicharanaShala channel.',
+      'On your Dashboard, paste the code into Quick Join and click the Join Room button.',
     ],
   },
   {
-    icon: '❓', title: 'Answering questions', ordered: true,
+    icon: '❓', title: 'What happens after I join?',
     body: [
-      'When the teacher launches a poll, the question appears at the top of your screen and takes over.',
-      'Read the question and pick your answer: MCQ and True/False want one choice; MSQ (multiple-select) wants every correct option — select all that apply.',
-      'Answer before the timer runs out. Points reward both correctness and speed, so answer promptly.',
-      'When the poll closes, the question disappears and your position updates on the leaderboard.',
+      'The YouTube video or live stream will play.',
+      'Listen to the session and wait for your teacher to launch a poll.',
+      'Polls are launched by the teacher at a fixed interval of 10–12 minutes.',
     ],
   },
   {
-    icon: '🎬', title: 'Video-mode rooms',
+    icon: '✅', title: 'How do I answer a poll?',
     body: [
-      'Some rooms play a YouTube video or live stream inside the page instead of the teacher speaking. Just watch along.',
-      'Recorded YouTube video: you CAN pause and rewind to review earlier parts. You cannot skip ahead of where the class has reached.',
-      'YouTube live stream: it plays in real time at the live edge, so you follow the broadcast as it happens — you cannot rewind or pause a live stream.',
-      'When the teacher launches a poll, the video pauses automatically and the question appears; it resumes on its own once the poll closes.',
+      'When your teacher launches a poll, the question appears on your screen.',
+      'Choose your answer and select Submit before the timer runs out.',
+      'For multiple-select questions, select all the correct options.',
+      'Correct answers earn points, and faster answers earn more points. Incorrect answers earn no points.',
+      'When the poll closes, the question disappears.',
     ],
   },
   {
-    icon: '⛶', title: 'Full screen & answering',
+    icon: '⏱️', title: 'How do I know when a poll will appear?',
     body: [
-      'You can make the video full screen to watch it larger.',
-      'IMPORTANT: while you are in full screen, a poll will still appear and you WILL see the question — but you will NOT be able to mark/select your answer from there.',
-      'So when a question comes up, exit full screen to mark your answer. Then you can go full screen again.',
+      'In video mode, the video pauses automatically while a poll is active, and the question appears in its place.',
+      'If you see a poll, answer it without refreshing the page.',
+      'Refreshing does not restore an active poll, so you may miss your chance to answer.',
     ],
   },
   {
-    icon: '🏆', title: 'Leaderboard',
+    icon: '🔄', title: 'What if I leave the room or get logged out?',
     body: [
-      'Your score builds up across the whole session from your correct answers and how quickly you answer.',
-      'The final leaderboard appears once the teacher ends the room.',
+      'You can return to an active room from your Dashboard using the Rejoin option.',
+      'Answers you have already submitted are saved, and rejoining does not remove or recalculate the points you earned.',
+      'Ended rooms cannot be rejoined.',
+    ],
+  },
+  {
+    icon: '🚫', title: 'What if the "Session Expired" message appears?',
+    body: [
+      'Try logging out and logging in again, performing a hard refresh, or changing your browser.',
+    ],
+  },
+  {
+    icon: '🔐', title: 'How do I change my password?',
+    body: [
+      'Open Profile, then select Change Password.',
+    ],
+  },
+  {
+    icon: '🏆', title: 'How does the leaderboard update?',
+    body: [
+      'The leaderboard is updated after every poll interval.',
+      'You can see the Top 10, your poll score, your rank, and the number of correct answers out of the total questions.',
+    ],
+  },
+  {
+    icon: '📊', title: 'What will I see when the session ends?',
+    body: [
+      'The results page shows your session totals, leaderboard rank, and question-by-question results, including your answer correctness and points earned.',
+    ],
+  },
+  {
+    icon: '⭐', title: 'Do polls affect my SP points?',
+    body: [
+      'Yes. Your attendance and poll results affect your SP points.',
+      'The points are based on the correctness of your answers.',
+    ],
+  },
+  {
+    icon: '🎬', title: 'What can I do with the video?',
+    body: [
+      'Some rooms include a YouTube video or live stream.',
+      'You can pause and rewind the video, but you cannot seek ahead beyond the teacher’s current position.',
+      'During a poll, the video pauses automatically and resumes after the poll closes.',
+      'Generally, V-Talk sessions are not live-streamed. Spandan is used only for conducting polls during these sessions.',
     ],
   },
 ]
